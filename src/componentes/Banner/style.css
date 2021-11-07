@@ -1,0 +1,30 @@
+#banner {
+    width: 100%;
+    height: calc(100vh - 81px);
+    background-image: url('https://tinyurl.com/jvttj3p8');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner .banner-text {
+    color: red;
+    filter: drop-shadow();
+    text-shadow: 5px 5px 5px #222;
+    text-align: right;
+    width: 30%;
+    padding-left: 80px;
+    font-weight: bold;
+}
+
+#banner .banner-text h2 {
+    font-size: 30px;
+}
+
+#banner .banner-text p {
+    font-size: 15px;
+}
